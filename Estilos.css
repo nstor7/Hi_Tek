@@ -106,8 +106,10 @@ header{
         vertical-align: top;
     }
 .fondo{
-    background:url(Imagenes/fondo.png) no-repeat fixed;
-    height: 150px;
+    background: url(Imagenes/Panama-Canal.jpg) no-repeat fixed;
+    background-size: cover;
+    background-position:0 -30px;
+    height: 300px;
     width: 100%;
 }
 .contenido__items{
