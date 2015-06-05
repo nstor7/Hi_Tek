@@ -26,6 +26,8 @@ a{
 }
 p{
     font-family: 'Arimo', sans-serif;
+    font-size: 1em;
+    text-shadow: rgba(2,2,2,0.8) 0.5px 0.5px 1px;
 }
 .top{
     
@@ -55,12 +57,17 @@ p{
         margin: 0 0 0 30px;
         vertical-align: top;
     }
+    .logo{
+        border-radius: 50%;
+        padding: 1em;
+        background: #e2e2e2;
+    }
         .top__item a img{
-            height: 40px;
-            transition: all 1s ease;
+            height: 60px;
+            transition: all 0.5s ease;
         }
         .top__item a img:hover{
-            height: 50px;
+            height: 80px;
         }
             .top__item__lista{
                 display: inline-block;
@@ -81,7 +88,7 @@ p{
                         border-bottom: 2px solid;
                     }
 header{
-    background: rgba(20,111,180,1);
+    background: #1E3C90;
     box-shadow: rgba(100,100,100,0.8) 3px 3px 5px;
     color: rgba(230,230,230,1);
     height: 250px;
@@ -103,32 +110,19 @@ header{
     height: 150px;
     width: 100%;
 }
-mascara{
-    background: white;
-    height: 100%;
-    opacity: 0.4;
-    width: 100%;
+.contenido__items{
+    height: 400px;
+    padding: 3em;
+    color: #212121;
+    
 }
-.contenido{
-    margin: 0 auto;
-    width: 80%; 
+.contenido__items h2{
+    text-align: center;
+    margin-bottom: 1em;
 }
-    .contenido__items{
-        width: 40%;
-        display: inline-block;
-        margin: 1em 2em 0 0;
-        vertical-align: top;
-        padding:10px;
-        border-radius: 0.5em;
-        border: 1px solid;
-    }
-        }    
-        .contenido__items p{
-            text-align: justify;
-            font-size: 1em;
-        }
-.articulo1{
-    margin-left: 2em;
+.articulo2
+{
+    background: #dcdcdc; 
 }
 footer{
     background: rgba(35,128,147,1);
