@@ -15,12 +15,33 @@ h2
     padding: 0
     
 nav
+    background: #121212
+    display: none 
+    padding-left: 1em
     position: absolute
-    background: #1A1AA7
-        
+    width: 100%
+    @media screen and (orientation: landscape)
+        display: inline-block
+        position: static
+        width: auto
+    
+    a
+        color: #e1e1e1
+            
     ul
         list-style: none
+        margin: 0
+        padding: 0
 
+        li
+            border-bottom: 1px solid #e1e1e1
+            margin-top: 1em
+            @media screen and (orientation: landscape)
+                border-bottom: none  
+                display: inline-block
+                margin-left: 2em
+                vertical-align: top 
+                
 .top
     background: #121212
     border: blue
@@ -50,7 +71,10 @@ nav
         height: 50px
         margin: 0
         padding: 10px
-        
+        @media screen and (orientation: landscape)
+            margin-left: 1em
+            height: 75px
+            
         img
             height: 100%
             
@@ -61,7 +85,9 @@ nav
         position: absolute
         right: 0.5em
         top: 0.3em
-
+        @media screen and (orientation: landscape)
+            display: none
+        
 header
     background: #1E3C90
     box-shadow: rgba(100,100,100,0.8) 3px 3px 5px
@@ -71,6 +97,8 @@ header
     padding:  50px 0 25px 0
     text-align: center
     width: 100%
+    @media screen and (orientation: landscape)
+        padding:  70px 0 45px 0
     
 .contacto
     border-bottom: #e1e1e1 solid   
@@ -81,10 +109,25 @@ header
         font-size: 0.75em
         margin: 0.5em 0 0.5em 0.5em
         vertical-align: top
+        @media screen and (orientation: landscape)
+            font-size: 1em
+.fondo
+    display: none
+    @media screen and (orientation: landscape)
+        background: url(Imagenes/Panama-Canal.jpg) no-repeat fixed
+    background-size: cover
+    background-position: -90px -90px
+    box-shadow: 0.5px 0.5px 30px rgba(30,30,30,0.3) inset
+    display: inline-block
+    height: 300px
+    width: 100%
 
 section
     border-bottom: 1px inset grey
     color: #212121
+    
+    h2
+        text-align: center
     
 article
     
@@ -92,7 +135,7 @@ article
     width: 300px
     vertical-align: top
 
-.fist
+.first
     text-align: center
     width: 100%
 
@@ -104,6 +147,40 @@ article
     img
         max-width: 100%
         
+.products 
+    @media screen and (orientation: landscape)
+        margin: auto
+        width: 90%
+    
+    article
+        padding: 1em 1em
+        @media screen and (orientation: landscape)
+            width: 40%
+            
+    figure
+        display: inline-block
+        width: 280px
+        vertical-align: top
+        @media screen and (orientation: landscape)
+        width: 47%
+    
+.services 
+    @media screen and (orientation: landscape)
+        margin: auto
+        width: 90%
+    
+    article
+        padding: 1em 1em
+        @media screen and (orientation: landscape)
+            width: 25%
+     
+    figure
+       display: inline-block
+        width: 280px
+        vertical-align: top
+        @media screen and (orientation: landscape)
+        width: 36%
+    
 footer
     background: rgba(35,128,147,1)
     height: 400px

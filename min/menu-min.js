@@ -1,0 +1,1 @@
+function inicio(){var i=document.getElementById("nav");estilo=i.style,console.log(estilo)}inicio();
