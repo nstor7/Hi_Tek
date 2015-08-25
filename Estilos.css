@@ -18,6 +18,13 @@ h2{
     padding: 0;
     text-shadow: rgba(2,2,2,0.8) 1px 1px 3px;
 }
+h3
+{
+    font-family: 'Arimo', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: rgba(2,2,2,0.8) 1px 1px 3px;
+}
 a{
     font-family: 'Arimo', sans-serif;
     font-size: 1em;
@@ -109,23 +116,44 @@ header{
     background: url(Imagenes/Panama-Canal.jpg) no-repeat fixed;
     background-size: cover;
     background-position:0 -30px;
+    box-shadow: 0.5px 0.5px 30px rgba(30,30,30,0.3) inset;
     height: 300px;
     width: 100%;
 }
-.contenido__items{
-    height: 400px;
+.products__list{
+    height: auto;
     padding: 3em;
     color: #212121;
-    
-}
-.contenido__items h2{
     text-align: center;
+}
+    .products__list h2{
     margin-bottom: 1em;
+    color:  #1E3C90;
 }
-.articulo2
+.products__list h3
+    {
+        color: #1E3C90;
+        display: inline-block;
+        margin: 0 3em 3em 0;
+    }
+    .products__brands
 {
-    background: #dcdcdc; 
+    background: #dcdcdc;
 }
+    .products__brands .centrado
+    {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .products__brands .centreado.logos
+    {
+        border: 1px solid red;
+        height: 200px;
+        width: 200px;
+        display: inline-block;
+        
+    }
+    
 footer{
     background: rgba(35,128,147,1);
     height: 400px;
