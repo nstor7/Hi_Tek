@@ -1,5 +1,5 @@
 body{
-    background: rgba(230,230,230,0.6);
+    background: white;
     font-size: 16px;
 }
 h1{
@@ -138,7 +138,10 @@ header{
     }
     .products__brands
 {
+<<<<<<< HEAD
     background: #dcdcdc;
+=======
+>>>>>>> mobil-First
 }
     .products__brands .centrado
     {
