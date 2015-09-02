@@ -2,7 +2,10 @@
     {
         "id": "JSS-2150",
         "nombre": "MF/HF Radio Telephone",
+        "departamento": "Comunication",
         "tipo": "GMDSS",
+        "marca": "JRC",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/JRC_company_logos.svg/640px-JRC_company_logos.svg.png",
         "imagen": "http://www.jrcamerica.com/img/products/jss2150/img_jss2150.jpg",
         "descripcionCorta": "newly designed 150W MF/HF radio delivers enhanced performance and stability",
         "pestanas": ["Features", "Simple Operation", "Remote Control", "Specs"],
@@ -59,6 +62,63 @@
         "pestana4":{
                 "titulo": "Specs",
                 "imagen": "http://www.jrcamerica.com/img/products/jss2150/spec/img_jss2150_specs.jpg"
+        }
+    },
+    {
+        "id": "JHS-770S",
+        "nombre": "VHF Radiotelephone",
+        "departamento": "Comunication",
+        "tipo": "GMDSS",
+        "marca": "JRC",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/JRC_company_logos.svg/640px-JRC_company_logos.svg.png",
+        "imagen": "http://www.jrcamerica.com/img/products/jhs770s/img_jhs-770.jpg",
+        "descripcionCorta": "a first class VHF with an advanced modular design that allows for maximum installation flexibility",
+        "pestanas": ["Features", "Clear Display", "Easy Operation", "Specs"],
+        "pestana1": [
+            {
+                "titulo": "Features",
+                "contenido": "The JHS-770S class A VHF radiotelephone incorporates advanced modular design that allows for maximum installation flexibility.  "
+            },
+            {
+                "titulo": "Direct call by AIS™",
+                "contenido": "When connecting your AIS to the new VHF, new possibilities become available. This innovative feature, unique to JRC, allows you with one push of the button, to quickly navigate through a list of targets in your surrounding area. Bearing, range and MMSI information of target vessels are sorted from the shortest range upwards. You can now easily select the vessel you wish to get in contact with, and send a DSC message immediately."
+            },
+            {
+                "titulo": "Intercom and loudhailer",
+                "contenido": "The VHF radiotelephone has intercom functionality for easy communication with multiple other VHF controllers onboard! Additionally, to always be in full control and on top of communication with deck or dock hands, a loudhailer function is built in. An optional external speaker with amplifier increases talk power, making your messaging loud and clear, thereby adding to the safety of the vessel."
+            }
+        ],
+        "pestana2": [
+            {
+                "titulo": "Clear Display",
+                "contenido": "Improved visibility is realized by the integrated 3.8” high brightness silver LCD screen with excellent sunlight viewability. The main data is displayed in large characters for easy reading"
+            },
+            {
+                "titulo": "Extendable up to 5 Controllers",
+                "contenido": "The VHF series configuration allows having up to 5 controllers covering various important sections onboard. Additionally, there is a range of possibilities for connecting extra handsets and printers.."
+            },
+            {
+                "titulo": "120 Seconds Digital Recording",
+                "contenido": "JRC has included a recording function for the last 120 seconds of open squelch (voice). In situations where loud engines or other background noises disrupt your reception, this characteristic feature enables you to immediately repeat any unclear messages"
+            },
+            {
+                "titulo": "Wing Controller",
+                "contenido": "For wing and/or outside applications, JRC has developed an optional, simplified channel selector. This compact weatherproof unit allows basic operation, such as channel and power selection, and has a channel 16 preset."
+            }
+        ],
+        "pestana3": [
+            {
+                "titulo": "Easy Operation",
+                "contenido": "The combination of push buttons and JOG dial operation, together with JRC’s innovative software including easy menu structures ensures logical, accurate and convenient operation."
+            },
+            {
+                "titulo": "Easy Configuration",
+                "contenido": "The JHS-770S is developed upon maximum flexibility, having a separate transceiver and controller allowing flexible installation in confined spaces. Either panel, desktop or overhead mounting is possible with this size reduced VHF radiotelephone."
+            }
+        ],
+        "pestana4":{
+                "titulo": "Specs",
+                "imagen": "http://www.jrcamerica.com/img/products/jhs770s/spec/img_jhs770_specs.jpg"
         }
     }
 ]

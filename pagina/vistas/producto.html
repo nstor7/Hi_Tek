@@ -1,15 +1,25 @@
+<section class="producto">
+    <div class="tipo">
+        <h2>{{producto.departamento}}</h2>
+        <h3>{{producto.tipo}}</h3>
+    </div>
+    <img src="{{producto.imagen}}" alt="{{producto.nombre}}">
+    <div class="identificacion">
+        <h2>{{producto.nombre}}</h2>
+        <h4>{{producto.id}}</h4>
+    </div>
+    <div class="descripcion">
+        <img src="{{producto.logo}}" alt="{{producto.marca}}" height="50">
+        <p>{{producto.descripcionCorta}}</p>
+    </div>
 
-<h2>{{producto.tipo}}</h2>
-<h2>{{producto.nombre}}</h2>
-<h3>{{producto.id}}</h3>
-<img src="{{producto.imagen}}" alt="{{producto.nombre}}">
 <div ng-controller="tabsController as tabs">
    <ul>
        <li ng-repeat="pestana in producto.pestanas" >
            <a ng-click="tabs.selectTab(producto.pestanas.indexOf(pestana))">{{pestana}}</a>
     </li>
    </ul>
-   <section>
+
        <article ng-show="tabs.tab === 0" ng-repeat="parte in producto.pestana1" active>
            <h2>{{parte.titulo}}</h2>
            <p>{{parte.contenido}}</p>
@@ -26,5 +36,5 @@
            <h2>{{producto.pestana4.titulo}}</h2>
            <img src="{{producto.pestana4.imagen}}" alt="Imagen de {{producto.nombre}}">
        </article>
-   </section>
-</div>
+         </div>
+</section>
