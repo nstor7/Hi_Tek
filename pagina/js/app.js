@@ -2,7 +2,8 @@
     var app = angular.module('hitek', [
     'ngRoute',
     'hitek.controllers',
-    'hitek.services'
+    'hitek.services',
+    'hitek.directives'
     ]);
     
     app.config(['$routeProvider', function($routeProvider){

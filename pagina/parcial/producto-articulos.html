@@ -1,0 +1,18 @@
+<div class="articulos">
+       <article ng-show="tabs.tab === 0" ng-repeat="parte in producto.pestana1" active>
+           <h2>{{parte.titulo}}</h2>
+           <p>{{parte.contenido}}</p>
+       </article>
+       <article ng-show="tabs.tab === 1" ng-repeat="parte in producto.pestana2">
+           <h2>{{parte.titulo}}</h2>
+           <p>{{parte.contenido}}</p>
+       </article>
+       <article ng-show="tabs.tab === 2" ng-repeat="parte in producto.pestana3">
+           <h2>{{parte.titulo}}</h2>
+           <p>{{parte.contenido}}</p>
+       </article>
+       <article ng-show="tabs.tab === 3">
+           <h2>{{producto.pestana4.titulo}}</h2>
+           <img src="{{producto.pestana4.imagen}}" alt="Imagen de {{producto.nombre}}">
+       </article>
+       </div>
