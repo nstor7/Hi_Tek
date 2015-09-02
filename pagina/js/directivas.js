@@ -42,4 +42,10 @@
             templateUrl: 'parcial/producto-tabsystem.html'
         };
     })
+    .directive('productosMenu', function(){
+        return {
+            restrict: 'E',
+            templateUrl: 'parcial/productos-menu.html'
+        };
+    })
 })();

@@ -19,6 +19,7 @@ h2
 
 h3, h4, h5
     font-family 'Titillium Web', sans-serif
+    margin 0
     
 p, li
     font-family 'Josefin Slab', serif
@@ -217,8 +218,41 @@ article
         vertical-align top
         @media screen and (orientation: landscape)
             width 39%
-        
-    
+.menu
+    border 1px solid red
+    display inline-block
+    vertical-align top
+    width 30%
+.tablero
+    border 1px solid blue
+    display inline-block
+    vertical-align top
+    width 65%
+    .tarjeta
+        display inline-block
+        vertical-align top
+        width 50%
+.producto
+    display inline-block
+    vertical-align top
+    width 65%
+    .tipo
+        background #e3e3e3
+        width 100%
+        h2
+            display inline-block
+        h3
+            display inline-block
+            margin 0
+            float right
+    .derecha
+        display inline-block
+        vertical-align top
+        .identificacion
+            h2
+                text-align left
+            h4
+                margin 0
 footer
     background rgba(35,128,147,1)
     height 400px

@@ -22,9 +22,14 @@
               templateUrl: '/vistas/panama.html'
               })
         .when('/products', {
-              templateUrl: '/vistas/products.html'
+              templateUrl: '/vistas/products.html',
+              controller: 'productosController'
               })
-        .when('/products/:id', {
+        .when('/products/:tipo', {
+            templateUrl: '/vistas/products.html',
+            controller: 'productosController'
+        })
+        .when('/producto/:id', {
             templateUrl: '/vistas/producto.html',
             controller: 'productoController'
         })

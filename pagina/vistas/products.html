@@ -1,0 +1,9 @@
+<productos-menu></productos-menu>
+<div class="tablero">
+    <div class="tarjeta" ng-repeat="producto in productos"><a href="/#/producto/{{producto.id}}">
+            <producto-identificacion></producto-identificacion>
+            <producto-imagen></producto-imagen>
+            <producto-descripcion></producto-descripcion>
+        </a>
+    </div>
+</div>

@@ -1,0 +1,18 @@
+<div class="menu">
+    <ul ng-controller="tabsController as tabs">
+        <li>
+            <h3 ng-click="tabs.selectTab(1)">Comunication</h3>
+            <ul ng-show="tabs.tab === 1">
+                <li><a href="/#/products/GMDSS">GMDSS</a></li>
+                <li><a href="/#/products/Inmarsat">Inmarsat</a></li>
+            </ul>
+        </li>
+        <li>
+            <h3 ng-click="tabs.selectTab(2)">Navigation</h3>
+            <ul ng-show="tabs.tab === 2">
+                <li><a href="/#/products/Marine Radar">Marine Radar</a></li>
+                <li><a href="/#/products/ECDIS">ECDIS</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>

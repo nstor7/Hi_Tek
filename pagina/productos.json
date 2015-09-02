@@ -120,5 +120,395 @@
                 "titulo": "Specs",
                 "imagen": "http://www.jrcamerica.com/img/products/jhs770s/spec/img_jhs770_specs.jpg"
         }
+    },
+    {
+        "id": "JUE-251",
+        "nombre": "Inmarsat Fleet Broadband FB250",
+        "departamento": "Comunication",
+        "tipo": "Inmarsat",
+        "marca": "JRC",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/JRC_company_logos.svg/640px-JRC_company_logos.svg.png",
+        "imagen": "http://www.jrcamerica.com/img/products/jue251/image_jue-251.png",
+        "descripcionCorta": "the second generation JRC FB250 brings a whole new level of communication to the bridge",
+        "pestanas": ["Features", "Simple Operation", "Remote Control", "Specs"],
+        "pestana1": [
+            {
+                "titulo": "Features",
+                "contenido": "The new JSS-2150 Class A MF/HF radio equipment features an intuitive user interface and advanced modular design that allows for a flexible installation approach in confined spaces."
+            },
+            {
+                "titulo": "6-Channel DSC Built-In",
+                "contenido": "The MF/HF has a 6-channel Digital Selective Calling (DSC) as standard with a built-in DSC watch-keeping receiver. You can generate and receive digital selective calls for quick and efficient establishment of distress, urgency, safety and routine communication with other ships and coast stations. In urgent situations, the JSS-2150 sends a distress alert once you press the distress button. The integrated DSC watch-keeping receiver monitors distress alarms through continuous scanning of distress frequencies."
+            },
+            {
+                "titulo": "Digital Audio",
+                "contenido": "The MF/HF integrates an advanced digital audio amplifier with a built-in speaker, which increases the amount of power, making your message loud and clear."
+            },
+            {
+                "titulo": "Setting Your Settings",
+                "contenido": "The JSS-2150 uses a 3.8-inch high visibility LCD display, which you can adjust at your own convenience. The display has 10 dim settings and you can set the contrast up to 11 different levels, integrated screensaver and assign a commonly used menu to the user key for direct access. These are just a few of the possibilities"
+            }
+        ],
+        "pestana2": [
+            {
+                "titulo": "Simple Operation",
+                "contenido": "The compact design of the JSS-2150 incorporates an intuitive interface, providing enhanced ergonomics and user friendliness. The logic of the push buttons and JOG dial operation and excellent on-screen menus will greatly shorten most users’ learning period."
+            },
+            {
+                "titulo": "Black Box Configured",
+                "contenido": "The JSS-2150 is black box configured and allows for a flexible installation approach in confined space. Panel, desktop or overhead mounting is possible with this significantly in size reduced MF/HF."
+            },
+            {
+                "titulo": "Unified Design",
+                "contenido": "The new display design allows you to carry out all operations simply by using the same unified keyboard layout as found in JRC’s VHF radiotelephone. The keyboard is solid and responsive, which allows for precise operation. The keys are also backlit, making it easy to operate in low-light settings on the bridge."
+            },
+            {
+                "titulo": "Distress Alerts",
+                "contenido": "The JSS-2150 includes a prominent distress button, with features to prevent accidental activation. When in distress, you can send a DSC message instantly, transmitting your MMSI, position, time of position and nature of distress, enabling an immediate response for search and rescue efforts."
+            }
+        ],
+        "pestana3": [
+            {
+                "titulo": "Remote Control",
+                "contenido": "Getting a second operation panel onboard is easy. Connect the display to the transceiver and position the display at a secondary location on the ship. The second MF/HF station is fully operable and you can transfer saved channel data to optimize your operation."
+            },
+            {
+                "titulo": "Flexible Interfacing",
+                "contenido": "Besides connecting a printer and GPS, you can connect the MF/HF to the Remote Maintenance System (RMS1), a system that transmits a variety of information via satellite to shore, to remotely perform maintenance and management checks – significantly reducing down time and service miscarriage by failure analysis."
+            },
+            {
+                "titulo": "Self Diagnosis",
+                "contenido": "With JRC’s MF/HF radio equipment you can perform self-diagnosis checks on the display and transceiver, allowing for easy maintenance and more reliability. The results are directly shown on the screen, you can save as a log (up to 10 possible) or print the results (with optional printer)."
+            }
+        ],
+        "pestana4":{
+                "titulo": "Specs",
+                "imagen": "http://www.jrcamerica.com/img/products/jss2150/spec/img_jss2150_specs.jpg"
+        }
+    },
+    {
+        "id": "JUE-501",
+        "nombre": "Inmarsat Fleet Broadband FB500",
+        "departamento": "Comunication",
+        "tipo": "Inmarsat",
+        "marca": "JRC",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/JRC_company_logos.svg/640px-JRC_company_logos.svg.png",
+        "imagen": "http://www.jrcamerica.com/img/products/jue501/image_jue-501.png",
+        "descripcionCorta": "the second generation JRC FB500 offers the fastest onboard communication ever.",
+        "pestanas": ["Features", "Simple Operation", "Remote Control", "Specs"],
+        "pestana1": [
+            {
+                "titulo": "Features",
+                "contenido": "The new JSS-2150 Class A MF/HF radio equipment features an intuitive user interface and advanced modular design that allows for a flexible installation approach in confined spaces."
+            },
+            {
+                "titulo": "6-Channel DSC Built-In",
+                "contenido": "The MF/HF has a 6-channel Digital Selective Calling (DSC) as standard with a built-in DSC watch-keeping receiver. You can generate and receive digital selective calls for quick and efficient establishment of distress, urgency, safety and routine communication with other ships and coast stations. In urgent situations, the JSS-2150 sends a distress alert once you press the distress button. The integrated DSC watch-keeping receiver monitors distress alarms through continuous scanning of distress frequencies."
+            },
+            {
+                "titulo": "Digital Audio",
+                "contenido": "The MF/HF integrates an advanced digital audio amplifier with a built-in speaker, which increases the amount of power, making your message loud and clear."
+            },
+            {
+                "titulo": "Setting Your Settings",
+                "contenido": "The JSS-2150 uses a 3.8-inch high visibility LCD display, which you can adjust at your own convenience. The display has 10 dim settings and you can set the contrast up to 11 different levels, integrated screensaver and assign a commonly used menu to the user key for direct access. These are just a few of the possibilities"
+            }
+        ],
+        "pestana2": [
+            {
+                "titulo": "Simple Operation",
+                "contenido": "The compact design of the JSS-2150 incorporates an intuitive interface, providing enhanced ergonomics and user friendliness. The logic of the push buttons and JOG dial operation and excellent on-screen menus will greatly shorten most users’ learning period."
+            },
+            {
+                "titulo": "Black Box Configured",
+                "contenido": "The JSS-2150 is black box configured and allows for a flexible installation approach in confined space. Panel, desktop or overhead mounting is possible with this significantly in size reduced MF/HF."
+            },
+            {
+                "titulo": "Unified Design",
+                "contenido": "The new display design allows you to carry out all operations simply by using the same unified keyboard layout as found in JRC’s VHF radiotelephone. The keyboard is solid and responsive, which allows for precise operation. The keys are also backlit, making it easy to operate in low-light settings on the bridge."
+            },
+            {
+                "titulo": "Distress Alerts",
+                "contenido": "The JSS-2150 includes a prominent distress button, with features to prevent accidental activation. When in distress, you can send a DSC message instantly, transmitting your MMSI, position, time of position and nature of distress, enabling an immediate response for search and rescue efforts."
+            }
+        ],
+        "pestana3": [
+            {
+                "titulo": "Remote Control",
+                "contenido": "Getting a second operation panel onboard is easy. Connect the display to the transceiver and position the display at a secondary location on the ship. The second MF/HF station is fully operable and you can transfer saved channel data to optimize your operation."
+            },
+            {
+                "titulo": "Flexible Interfacing",
+                "contenido": "Besides connecting a printer and GPS, you can connect the MF/HF to the Remote Maintenance System (RMS1), a system that transmits a variety of information via satellite to shore, to remotely perform maintenance and management checks – significantly reducing down time and service miscarriage by failure analysis."
+            },
+            {
+                "titulo": "Self Diagnosis",
+                "contenido": "With JRC’s MF/HF radio equipment you can perform self-diagnosis checks on the display and transceiver, allowing for easy maintenance and more reliability. The results are directly shown on the screen, you can save as a log (up to 10 possible) or print the results (with optional printer)."
+            }
+        ],
+        "pestana4":{
+                "titulo": "Specs",
+                "imagen": "http://www.jrcamerica.com/img/products/jss2150/spec/img_jss2150_specs.jpg"
+        }
+    },
+    {
+        "id": "JMA-9100 Series",
+        "nombre": "ARPA Radar",
+        "departamento": "Navigation",
+        "tipo": "Marine Radar",
+        "marca": "JRC",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/JRC_company_logos.svg/640px-JRC_company_logos.svg.png",
+        "imagen": "http://www.jrcamerica.com/img/products/jma9100series/img_jma9100series.jpg",
+        "descripcionCorta": "all-new high performance radar from JRC brings a new level of functionality to the bridge",
+        "pestanas": ["Features", "Simple Operation", "Remote Control", "Specs"],
+        "pestana1": [
+            {
+                "titulo": "Features",
+                "contenido": "The new JSS-2150 Class A MF/HF radio equipment features an intuitive user interface and advanced modular design that allows for a flexible installation approach in confined spaces."
+            },
+            {
+                "titulo": "6-Channel DSC Built-In",
+                "contenido": "The MF/HF has a 6-channel Digital Selective Calling (DSC) as standard with a built-in DSC watch-keeping receiver. You can generate and receive digital selective calls for quick and efficient establishment of distress, urgency, safety and routine communication with other ships and coast stations. In urgent situations, the JSS-2150 sends a distress alert once you press the distress button. The integrated DSC watch-keeping receiver monitors distress alarms through continuous scanning of distress frequencies."
+            },
+            {
+                "titulo": "Digital Audio",
+                "contenido": "The MF/HF integrates an advanced digital audio amplifier with a built-in speaker, which increases the amount of power, making your message loud and clear."
+            },
+            {
+                "titulo": "Setting Your Settings",
+                "contenido": "The JSS-2150 uses a 3.8-inch high visibility LCD display, which you can adjust at your own convenience. The display has 10 dim settings and you can set the contrast up to 11 different levels, integrated screensaver and assign a commonly used menu to the user key for direct access. These are just a few of the possibilities"
+            }
+        ],
+        "pestana2": [
+            {
+                "titulo": "Simple Operation",
+                "contenido": "The compact design of the JSS-2150 incorporates an intuitive interface, providing enhanced ergonomics and user friendliness. The logic of the push buttons and JOG dial operation and excellent on-screen menus will greatly shorten most users’ learning period."
+            },
+            {
+                "titulo": "Black Box Configured",
+                "contenido": "The JSS-2150 is black box configured and allows for a flexible installation approach in confined space. Panel, desktop or overhead mounting is possible with this significantly in size reduced MF/HF."
+            },
+            {
+                "titulo": "Unified Design",
+                "contenido": "The new display design allows you to carry out all operations simply by using the same unified keyboard layout as found in JRC’s VHF radiotelephone. The keyboard is solid and responsive, which allows for precise operation. The keys are also backlit, making it easy to operate in low-light settings on the bridge."
+            },
+            {
+                "titulo": "Distress Alerts",
+                "contenido": "The JSS-2150 includes a prominent distress button, with features to prevent accidental activation. When in distress, you can send a DSC message instantly, transmitting your MMSI, position, time of position and nature of distress, enabling an immediate response for search and rescue efforts."
+            }
+        ],
+        "pestana3": [
+            {
+                "titulo": "Remote Control",
+                "contenido": "Getting a second operation panel onboard is easy. Connect the display to the transceiver and position the display at a secondary location on the ship. The second MF/HF station is fully operable and you can transfer saved channel data to optimize your operation."
+            },
+            {
+                "titulo": "Flexible Interfacing",
+                "contenido": "Besides connecting a printer and GPS, you can connect the MF/HF to the Remote Maintenance System (RMS1), a system that transmits a variety of information via satellite to shore, to remotely perform maintenance and management checks – significantly reducing down time and service miscarriage by failure analysis."
+            },
+            {
+                "titulo": "Self Diagnosis",
+                "contenido": "With JRC’s MF/HF radio equipment you can perform self-diagnosis checks on the display and transceiver, allowing for easy maintenance and more reliability. The results are directly shown on the screen, you can save as a log (up to 10 possible) or print the results (with optional printer)."
+            }
+        ],
+        "pestana4":{
+                "titulo": "Specs",
+                "imagen": "http://www.jrcamerica.com/img/products/jss2150/spec/img_jss2150_specs.jpg"
+        }
+    },
+    {
+        "id": "JMA-7100 Series",
+        "nombre": "ARPA Radar",
+        "departamento": "Navigation",
+        "tipo": "Marine Radar",
+        "marca": "JRC",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/JRC_company_logos.svg/640px-JRC_company_logos.svg.png",
+        "imagen": "http://www.jrcamerica.com/img/products/jma7100series/img_jma7100series.jpg",
+        "descripcionCorta": "this new and powerful radar greatly increases performance, but keeps operation simple",
+        "pestanas": ["Features", "Simple Operation", "Remote Control", "Specs"],
+        "pestana1": [
+            {
+                "titulo": "Features",
+                "contenido": "The new JSS-2150 Class A MF/HF radio equipment features an intuitive user interface and advanced modular design that allows for a flexible installation approach in confined spaces."
+            },
+            {
+                "titulo": "6-Channel DSC Built-In",
+                "contenido": "The MF/HF has a 6-channel Digital Selective Calling (DSC) as standard with a built-in DSC watch-keeping receiver. You can generate and receive digital selective calls for quick and efficient establishment of distress, urgency, safety and routine communication with other ships and coast stations. In urgent situations, the JSS-2150 sends a distress alert once you press the distress button. The integrated DSC watch-keeping receiver monitors distress alarms through continuous scanning of distress frequencies."
+            },
+            {
+                "titulo": "Digital Audio",
+                "contenido": "The MF/HF integrates an advanced digital audio amplifier with a built-in speaker, which increases the amount of power, making your message loud and clear."
+            },
+            {
+                "titulo": "Setting Your Settings",
+                "contenido": "The JSS-2150 uses a 3.8-inch high visibility LCD display, which you can adjust at your own convenience. The display has 10 dim settings and you can set the contrast up to 11 different levels, integrated screensaver and assign a commonly used menu to the user key for direct access. These are just a few of the possibilities"
+            }
+        ],
+        "pestana2": [
+            {
+                "titulo": "Simple Operation",
+                "contenido": "The compact design of the JSS-2150 incorporates an intuitive interface, providing enhanced ergonomics and user friendliness. The logic of the push buttons and JOG dial operation and excellent on-screen menus will greatly shorten most users’ learning period."
+            },
+            {
+                "titulo": "Black Box Configured",
+                "contenido": "The JSS-2150 is black box configured and allows for a flexible installation approach in confined space. Panel, desktop or overhead mounting is possible with this significantly in size reduced MF/HF."
+            },
+            {
+                "titulo": "Unified Design",
+                "contenido": "The new display design allows you to carry out all operations simply by using the same unified keyboard layout as found in JRC’s VHF radiotelephone. The keyboard is solid and responsive, which allows for precise operation. The keys are also backlit, making it easy to operate in low-light settings on the bridge."
+            },
+            {
+                "titulo": "Distress Alerts",
+                "contenido": "The JSS-2150 includes a prominent distress button, with features to prevent accidental activation. When in distress, you can send a DSC message instantly, transmitting your MMSI, position, time of position and nature of distress, enabling an immediate response for search and rescue efforts."
+            }
+        ],
+        "pestana3": [
+            {
+                "titulo": "Remote Control",
+                "contenido": "Getting a second operation panel onboard is easy. Connect the display to the transceiver and position the display at a secondary location on the ship. The second MF/HF station is fully operable and you can transfer saved channel data to optimize your operation."
+            },
+            {
+                "titulo": "Flexible Interfacing",
+                "contenido": "Besides connecting a printer and GPS, you can connect the MF/HF to the Remote Maintenance System (RMS1), a system that transmits a variety of information via satellite to shore, to remotely perform maintenance and management checks – significantly reducing down time and service miscarriage by failure analysis."
+            },
+            {
+                "titulo": "Self Diagnosis",
+                "contenido": "With JRC’s MF/HF radio equipment you can perform self-diagnosis checks on the display and transceiver, allowing for easy maintenance and more reliability. The results are directly shown on the screen, you can save as a log (up to 10 possible) or print the results (with optional printer)."
+            }
+        ],
+        "pestana4":{
+                "titulo": "Specs",
+                "imagen": "http://www.jrcamerica.com/img/products/jss2150/spec/img_jss2150_specs.jpg"
+        }
+    },
+    {
+        "id": "JAN-901B",
+        "nombre": "ECDIS",
+        "departamento": "Navigation",
+        "tipo": "ECDIS",
+        "marca": "JRC",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/JRC_company_logos.svg/640px-JRC_company_logos.svg.png",
+        "imagen": "http://www.jrcamerica.com/img/products/jan901b/img_jan901b.jpg",
+        "descripcionCorta": "JRC introduces a high performance ECDIS integrating a range of new features",
+        "pestanas": ["Features", "Simple Operation", "Remote Control", "Specs"],
+        "pestana1": [
+            {
+                "titulo": "Features",
+                "contenido": "The new JSS-2150 Class A MF/HF radio equipment features an intuitive user interface and advanced modular design that allows for a flexible installation approach in confined spaces."
+            },
+            {
+                "titulo": "6-Channel DSC Built-In",
+                "contenido": "The MF/HF has a 6-channel Digital Selective Calling (DSC) as standard with a built-in DSC watch-keeping receiver. You can generate and receive digital selective calls for quick and efficient establishment of distress, urgency, safety and routine communication with other ships and coast stations. In urgent situations, the JSS-2150 sends a distress alert once you press the distress button. The integrated DSC watch-keeping receiver monitors distress alarms through continuous scanning of distress frequencies."
+            },
+            {
+                "titulo": "Digital Audio",
+                "contenido": "The MF/HF integrates an advanced digital audio amplifier with a built-in speaker, which increases the amount of power, making your message loud and clear."
+            },
+            {
+                "titulo": "Setting Your Settings",
+                "contenido": "The JSS-2150 uses a 3.8-inch high visibility LCD display, which you can adjust at your own convenience. The display has 10 dim settings and you can set the contrast up to 11 different levels, integrated screensaver and assign a commonly used menu to the user key for direct access. These are just a few of the possibilities"
+            }
+        ],
+        "pestana2": [
+            {
+                "titulo": "Simple Operation",
+                "contenido": "The compact design of the JSS-2150 incorporates an intuitive interface, providing enhanced ergonomics and user friendliness. The logic of the push buttons and JOG dial operation and excellent on-screen menus will greatly shorten most users’ learning period."
+            },
+            {
+                "titulo": "Black Box Configured",
+                "contenido": "The JSS-2150 is black box configured and allows for a flexible installation approach in confined space. Panel, desktop or overhead mounting is possible with this significantly in size reduced MF/HF."
+            },
+            {
+                "titulo": "Unified Design",
+                "contenido": "The new display design allows you to carry out all operations simply by using the same unified keyboard layout as found in JRC’s VHF radiotelephone. The keyboard is solid and responsive, which allows for precise operation. The keys are also backlit, making it easy to operate in low-light settings on the bridge."
+            },
+            {
+                "titulo": "Distress Alerts",
+                "contenido": "The JSS-2150 includes a prominent distress button, with features to prevent accidental activation. When in distress, you can send a DSC message instantly, transmitting your MMSI, position, time of position and nature of distress, enabling an immediate response for search and rescue efforts."
+            }
+        ],
+        "pestana3": [
+            {
+                "titulo": "Remote Control",
+                "contenido": "Getting a second operation panel onboard is easy. Connect the display to the transceiver and position the display at a secondary location on the ship. The second MF/HF station is fully operable and you can transfer saved channel data to optimize your operation."
+            },
+            {
+                "titulo": "Flexible Interfacing",
+                "contenido": "Besides connecting a printer and GPS, you can connect the MF/HF to the Remote Maintenance System (RMS1), a system that transmits a variety of information via satellite to shore, to remotely perform maintenance and management checks – significantly reducing down time and service miscarriage by failure analysis."
+            },
+            {
+                "titulo": "Self Diagnosis",
+                "contenido": "With JRC’s MF/HF radio equipment you can perform self-diagnosis checks on the display and transceiver, allowing for easy maintenance and more reliability. The results are directly shown on the screen, you can save as a log (up to 10 possible) or print the results (with optional printer)."
+            }
+        ],
+        "pestana4":{
+                "titulo": "Specs",
+                "imagen": "http://www.jrcamerica.com/img/products/jss2150/spec/img_jss2150_specs.jpg"
+        }
+    },
+    {
+        "id": "JAN-2000",
+        "nombre": "ECDIS",
+        "departamento": "Navigation",
+        "tipo": "ECDIS",
+        "marca": "JRC",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/JRC_company_logos.svg/640px-JRC_company_logos.svg.png",
+        "imagen": "http://www.jrcamerica.com/img/products/jan2000/image_JAN-2000%20new.png",
+        "descripcionCorta": "new high performance ECDIS represents a significant step change in terms of cost-effectiveness",
+        "pestanas": ["Features", "Simple Operation", "Remote Control", "Specs"],
+        "pestana1": [
+            {
+                "titulo": "Features",
+                "contenido": "The new JSS-2150 Class A MF/HF radio equipment features an intuitive user interface and advanced modular design that allows for a flexible installation approach in confined spaces."
+            },
+            {
+                "titulo": "6-Channel DSC Built-In",
+                "contenido": "The MF/HF has a 6-channel Digital Selective Calling (DSC) as standard with a built-in DSC watch-keeping receiver. You can generate and receive digital selective calls for quick and efficient establishment of distress, urgency, safety and routine communication with other ships and coast stations. In urgent situations, the JSS-2150 sends a distress alert once you press the distress button. The integrated DSC watch-keeping receiver monitors distress alarms through continuous scanning of distress frequencies."
+            },
+            {
+                "titulo": "Digital Audio",
+                "contenido": "The MF/HF integrates an advanced digital audio amplifier with a built-in speaker, which increases the amount of power, making your message loud and clear."
+            },
+            {
+                "titulo": "Setting Your Settings",
+                "contenido": "The JSS-2150 uses a 3.8-inch high visibility LCD display, which you can adjust at your own convenience. The display has 10 dim settings and you can set the contrast up to 11 different levels, integrated screensaver and assign a commonly used menu to the user key for direct access. These are just a few of the possibilities"
+            }
+        ],
+        "pestana2": [
+            {
+                "titulo": "Simple Operation",
+                "contenido": "The compact design of the JSS-2150 incorporates an intuitive interface, providing enhanced ergonomics and user friendliness. The logic of the push buttons and JOG dial operation and excellent on-screen menus will greatly shorten most users’ learning period."
+            },
+            {
+                "titulo": "Black Box Configured",
+                "contenido": "The JSS-2150 is black box configured and allows for a flexible installation approach in confined space. Panel, desktop or overhead mounting is possible with this significantly in size reduced MF/HF."
+            },
+            {
+                "titulo": "Unified Design",
+                "contenido": "The new display design allows you to carry out all operations simply by using the same unified keyboard layout as found in JRC’s VHF radiotelephone. The keyboard is solid and responsive, which allows for precise operation. The keys are also backlit, making it easy to operate in low-light settings on the bridge."
+            },
+            {
+                "titulo": "Distress Alerts",
+                "contenido": "The JSS-2150 includes a prominent distress button, with features to prevent accidental activation. When in distress, you can send a DSC message instantly, transmitting your MMSI, position, time of position and nature of distress, enabling an immediate response for search and rescue efforts."
+            }
+        ],
+        "pestana3": [
+            {
+                "titulo": "Remote Control",
+                "contenido": "Getting a second operation panel onboard is easy. Connect the display to the transceiver and position the display at a secondary location on the ship. The second MF/HF station is fully operable and you can transfer saved channel data to optimize your operation."
+            },
+            {
+                "titulo": "Flexible Interfacing",
+                "contenido": "Besides connecting a printer and GPS, you can connect the MF/HF to the Remote Maintenance System (RMS1), a system that transmits a variety of information via satellite to shore, to remotely perform maintenance and management checks – significantly reducing down time and service miscarriage by failure analysis."
+            },
+            {
+                "titulo": "Self Diagnosis",
+                "contenido": "With JRC’s MF/HF radio equipment you can perform self-diagnosis checks on the display and transceiver, allowing for easy maintenance and more reliability. The results are directly shown on the screen, you can save as a log (up to 10 possible) or print the results (with optional printer)."
+            }
+        ],
+        "pestana4":{
+                "titulo": "Specs",
+                "imagen": "http://www.jrcamerica.com/img/products/jss2150/spec/img_jss2150_specs.jpg"
+        }
     }
 ]
