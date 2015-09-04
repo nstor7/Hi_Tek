@@ -2,17 +2,17 @@
    <h2>
        <a href="/#/products">Products</a>
     </h2>
-    <ul ng-controller="tabsController as tabs">
+    <ul ng-controller="tabsController">
         <li>
-            <h3 ng-click="tabs.selectTab(1)">Comunication</h3>
-            <ul ng-show="tabs.tab === 1">
+            <h3 ng-click="selectTab(1)">Comunication</h3>
+            <ul ng-show="tab === 1">
                 <li><a href="/#/products/GMDSS">GMDSS</a></li>
                 <li><a href="/#/products/Inmarsat">Inmarsat</a></li>
             </ul>
         </li>
         <li>
-            <h3 ng-click="tabs.selectTab(2)">Navigation</h3>
-            <ul ng-show="tabs.tab === 2">
+            <h3 ng-click="selectTab(2)">Navigation</h3>
+            <ul ng-show="tab === 2">
                 <li><a href="/#/products/Marine Radar">Marine Radar</a></li>
                 <li><a href="/#/products/ECDIS">ECDIS</a></li>
             </ul>

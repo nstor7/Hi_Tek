@@ -56,23 +56,23 @@ p, li
                 width 90px
         img
             height 100%
-    nav
-        background #333 
-        box-sizing border-box
+    .responsive
         display none
-        padding-left 1em
-        position absolute
-        top 50px
-        width 100%
-        &.active
-            display block
-        &.inactive
-            display none
         @media screen and (orientation: landscape)
             display inline-block
             position static
             width: auto
             height 50px
+    nav
+        background #333 
+        box-sizing border-box
+        display: block
+        padding-left 1em
+        position absolute
+        top 50px
+        width 100%
+        @media screen and (orientation: landscape)
+            display none
         ul
             list-style none
             margin 0
@@ -141,98 +141,69 @@ header
         vertical-align top
         @media screen and (orientation: landscape)
             font-size 1em
-.fondo
-    height 0
-    @media screen and (orientation: landscape)
-        background url(Imagenes/fondo.jpg) no-repeat fixed
-    background-size cover
-    box-shadow 0.5px 0.5px 30px rgba(30,30,30,0.3) inset
-    display: inline-block
-    height: 300px
-    width: 100%
-
 //paginas Estáticas
 section
     color #333
     
     h2
         text-align center
-    
-article
-    
-    display inline-block
-    width 300px
-    vertical-align top
-
 .first
     text-align center
-    width 100%
-
-.contfig 
-    display inline-block
-    width 280px
-    vertical-align top
-    
-    img
-        max-width 100%
+    display: block
+img
+    max-width 100%
         
 .products 
-    @media screen and (orientation: landscape)
-        margin auto
-        width 90%
-        padding 1em 0 3em 0
-    
+    height auto
     .list
         background rgba(230,230,230,0.5)
         box-sizing border-box
         border 10px double #e2e2e2
         border-radius 2em
+        display block
         margin 0
         margin-top 2em
-        padding 1em 1em
+        padding 1em
         text-align center
         @media screen and (orientation: landscape)
+            display inline-block
+            vertical-align top
             width 49% 
-     
             h3
                 display inline-block
                 margin-right 1em 
-                vertical-align top
-            
+                vertical-align top   
     figure
         box-sizing border-box
+        display block
         margin 0
         padding 1em 1em
-        width 280px
         @media screen and (orientation: landscape)
-            float right
-            width 50%
+            display inline-block
+            width 49%
             
     
 .services 
+    display block
+    padding 1em
     @media screen and (orientation: landscape)
-        margin 3em auto 0 auto
-        width 90%
-        padding-top 1em
-    
+        text-align center
     article
         box-sizing border-box
-        margin 0
-        padding 1em 1em
+        display block
         @media screen and (orientation: landscape)
+            display inline-block
+            text-align left
             width 30%
-            
-            p
-                font-family 'Josefin Slab', serif
-     
     figure
         box-sizing border-box
-        display inline-block
+        display block
         margin 5em 0 0 0
-        width 280px
         vertical-align top
         @media screen and (orientation: landscape)
-            width 39%
+            display inline-block
+            width 30%
+            padding 0 3em
 footer
     background rgba(35,128,147,1)
     height 400px
@@ -240,11 +211,13 @@ footer
     width 100%
 //parte de productos
 .menu
-    display inline-block
-    margin-top 40px
-    padding 1em
-    vertical-align top
-    width 30%
+    display block
+    @media screen and (orientation: landscape)
+        display inline-block
+        margin-top 40px
+        padding 1em
+        vertical-align top
+        width 30%
     a:visited
         color #333
     ul
@@ -273,28 +246,36 @@ footer
                         display block
                         height 100%
 .tabla
-    display inline-block
-    vertical-align top
-    width 65%
+    display block
+    text-align center
+    width 100%
+    @media screen and (orientation: landscape)
+        display inline-block
+        vertical-align top
+        width 65%
     .tablero
-        display flex
-        flex-wrap wrap
-        justify-content space-around 
+            display flex
+            flex-wrap wrap
+            justify-content space-around 
         .tarjeta
+            display block
             border-bottom 1px solid #e1e1e1
-            display inline-block
             margin-bottom 3em
-            vertical-align top
-            width 40%
+            @media screen and (orientation: landscape)
+                display inline-block
+                vertical-align top
+                width 40%
             a
                 color #333
                 &:visited
                     color #333
 .producto
-    color #333
-    display inline-block
-    vertical-align top
-    width 65%
+    display block
+    @media screen and (orientation: landscape)
+        color #333
+        display inline-block
+        vertical-align top
+        width 65%
     .tipo
         border-bottom 1px solid #e3e3e3
         display block
@@ -307,10 +288,12 @@ footer
             margin 0
             float right
     .derecha
-        display inline-block
-        vertical-align top
-        padding 1em 0 0 1em
-        width 300px
+        display block
+        @media screen and (orientation: landscape)
+            display inline-block
+            vertical-align top
+            padding 1em 0 0 1em
+            width 300px
         .identificacion
             h2
                 text-align left

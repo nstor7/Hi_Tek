@@ -39,13 +39,22 @@
     .directive('productoTabsystem', function(){
         return {
             restrict: 'E',
-            templateUrl: 'parcial/producto-tabsystem.html'
+            templateUrl: 'parcial/producto-tabsystem.html',
+            controller: 'tabsController'
         };
     })
     .directive('productosMenu', function(){
         return {
             restrict: 'E',
-            templateUrl: 'parcial/productos-menu.html'
+            templateUrl: 'parcial/productos-menu.html',
+            controller: 'tabsController'
+        };
+    })
+    .directive('navegador', function(){
+        return {
+            restrict: 'E',
+            templateUrl: 'parcial/navegador.html',
+            controller: 'menuController'
         };
     })
 })();

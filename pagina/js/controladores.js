@@ -23,12 +23,12 @@
             $scope.producto = data;
         });
     }])
-    .controller('tabsController', function($scope){
-        this.tab = 0;
-        this.selectTab = function(tab){
-            this.tab = tab;
+    .controller('tabsController', ['$scope', function($scope){
+        $scope.tab = 0;
+        $scope.selectTab = function(tab){
+            $scope.tab = tab;
         };
-    })
+    }])
     .controller('menuController', ['$scope', function($scope){
          $scope.show = false;
 
