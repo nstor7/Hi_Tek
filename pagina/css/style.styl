@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Exo+2)
+
+//generales
 body
     font-size 16px
     
@@ -5,7 +8,8 @@ a
     margin 0
     padding 0
     text-decoration none
-
+    &:hover
+        cursor pointer
 h1
     margin 0
     padding 0
@@ -16,91 +20,102 @@ h2
     margin 0
     padding 0
     font-family 'Titillium Web', sans-serif
+    font-size 2em
 
 h3, h4, h5
     font-family 'Titillium Web', sans-serif
     margin 0
+    font-size 1.5em
     
 p, li
-    font-family 'Josefin Slab', serif
-    
-nav
-    background #121212
-    display none 
-    padding-left 1em
-    position absolute
-    width 100%
-    @media screen and (orientation: landscape)
-        display inline-block
-        position static
-        width: auto
-    
-    a
-        color #e1e1e1
-        font-family 'Titillium Web', sans-serif
-            
-    ul
-        list-style none
-        margin 0
-        padding 0
+    font-family 'Exo 2', sans-serif
+    font-size  1em
 
-        li
-            border-bottom 1px solid #e1e1e1
-            margin-top 1em
-            @media screen and (orientation: landscape)
-                border-bottom none  
-                display inline-block
-                margin-left 2em
-                vertical-align top 
-                
+//template
 .top
-    background #121212
-    border blue
+    background #333
     height 50px
-        
     .item
         display inline-block
         vertical-align top
-    
-        ul li
-            display inline-block
-            vertical-align top
-     
-    aside 
-        position absolute
-        right 4em
-        top 1em
-        
-        a
-            color #e1e1e1
-            font-size 1em
-            
-        
     .logo
         background #e1e1e1
         border-radius 50%
         height 50px
         margin 0
         padding 10px
+        position relative
+        transition all .3s linear
+        width 50px
+        z-index 100
         @media screen and (orientation: landscape)
-            margin-left 1em
-            height 75px
-            
+            height 70px
+            width 70px
+            &:hover
+                height 90px
+                width 90px
         img
             height 100%
-            
+    nav
+        background #333 
+        box-sizing border-box
+        display none
+        padding-left 1em
+        position absolute
+        top 50px
+        width 100%
+        &.active
+            display block
+        &.inactive
+            display none
+        @media screen and (orientation: landscape)
+            display inline-block
+            position static
+            width: auto
+            height 50px
+        ul
+            list-style none
+            margin 0
+            padding 0
+            li
+                border-bottom 1px solid #e1e1e1
+                line-height 50px
+                @media screen and (orientation: landscape)
+                    border-bottom none  
+                    display inline-block
+                    width 90px
+                    vertical-align top
+                    text-align center
+                    height 100%
+                a
+                    color #e1e1e1
+                    font-family 'Titillium Web', sans-serif
+                    display block
+                    height 100%
+                    transition all .3s linear
+                    &:hover
+                        font-size 1.2em
+    aside 
+        height 50px
+        line-height 50px
+        position absolute
+        right 4em
+        top 0
+        a
+            color #e1e1e1
+            font-size 1em
+        .bandera
+            height 25px
     .icon-menu
         color #e1e1e1
         display inline-block
         font-size 2em
         position absolute
         right 0.5em
-        top 0.3em
         @media screen and (orientation: landscape)
             display none
             
-.bandera
-    height 25px
+x
         
 header
     background #1E3C90
@@ -136,9 +151,9 @@ header
     height: 300px
     width: 100%
 
+//paginas Estáticas
 section
-    border-bottom 1px inset grey
-    color #212121
+    color #333
     
     h2
         text-align center
@@ -218,27 +233,73 @@ article
         vertical-align top
         @media screen and (orientation: landscape)
             width 39%
+footer
+    background rgba(35,128,147,1)
+    height 400px
+    margin-top 2em
+    width 100%
+//parte de productos
 .menu
-    border 1px solid red
     display inline-block
+    margin-top 40px
+    padding 1em
     vertical-align top
     width 30%
-.tablero
-    border 1px solid blue
+    a:visited
+        color #333
+    ul
+        list-style none
+        margin 0 
+        padding 0
+        li
+            background #1e3c90
+            border 1px solid #e1e1e1
+            border-radius 5px
+            color #e1e1e1
+            display block
+            &:hover
+                cursor pointer
+            h3 
+                margin-left 1em
+            ul
+                li
+                    background #e1e1e1
+                    border-bottom 1px solid #eee
+                    border-radius 0
+                    color #333
+                    padding .5em 0 .5em 2em
+                    a
+                        color#333
+                        display block
+                        height 100%
+.tabla
     display inline-block
     vertical-align top
     width 65%
-    .tarjeta
-        display inline-block
-        vertical-align top
-        width 50%
+    .tablero
+        display flex
+        flex-wrap wrap
+        justify-content space-around 
+        .tarjeta
+            border-bottom 1px solid #e1e1e1
+            display inline-block
+            margin-bottom 3em
+            vertical-align top
+            width 40%
+            a
+                color #333
+                &:visited
+                    color #333
 .producto
+    color #333
     display inline-block
     vertical-align top
     width 65%
     .tipo
-        background #e3e3e3
-        width 100%
+        border-bottom 1px solid #e3e3e3
+        display block
+        height 40px
+        margin 0 2em 1em 2em
         h2
             display inline-block
         h3
@@ -248,13 +309,40 @@ article
     .derecha
         display inline-block
         vertical-align top
+        padding 1em 0 0 1em
+        width 300px
         .identificacion
             h2
                 text-align left
             h4
                 margin 0
-footer
-    background rgba(35,128,147,1)
-    height 400px
-    margin-top 4em
-    width 100%
+    .tabs
+        margin 0
+        padding 0
+        .pestanas
+            border 1px solid #e1e1e1 
+            display inline-block
+            height 50px
+            line-height 50px
+            vertical-align top
+            a
+                display inline-block
+                height 100%
+                padding 0 1em
+        .active
+            background-color #1e3c90
+            color #e1e1e1
+    .articulos
+        border 1px solid #e1e1e1
+        display block
+        padding 0 2em 2em 2em
+        box-shadow inset 1px 1px 5px #e1e1e1
+        article
+            display block
+            width 100%
+            margin 0
+            h2
+                text-align left
+                margin 1em 0 0.3em 0
+            p
+                margin 0

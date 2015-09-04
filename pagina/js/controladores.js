@@ -28,5 +28,12 @@
         this.selectTab = function(tab){
             this.tab = tab;
         };
-    });
+    })
+    .controller('menuController', ['$scope', function($scope){
+         $scope.show = false;
+
+          $scope.toggle = function () {
+            $scope.show = !$scope.show;
+        };
+    }]);
 })();

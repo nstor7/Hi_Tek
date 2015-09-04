@@ -1,5 +1,5 @@
-<ul>
-          <li ng-repeat="pestana in producto.pestanas" >
+<ul class="tabs">
+          <li class="pestanas" ng-class="{active : tabs.tab === producto.pestanas.indexOf(pestana)}" ng-repeat="pestana in producto.pestanas" >
               <a ng-click="tabs.selectTab(producto.pestanas.indexOf(pestana))">
               {{pestana}}
               </a>

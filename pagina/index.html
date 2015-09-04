@@ -2,6 +2,7 @@
 <html lang="en" ng-app = "hitek">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>Hi Tek Marine</title>
     <meta name="description" content="Hi-Tek Marine S.A. is a Panamanian company founded in 1991, dedicated to the service and marketing of marine electronic equipment, for vessels operating in the Panama Canal, Caribbean, Central and South American regions."/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -11,14 +12,13 @@
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-    <section class="top">
+    <section class="top" ng-controller="menuController">
         <figure class="item logo">
             <a href="#/">
                 <img src="Imagenes/Logo.png"/>
             </a>
         </figure>    
-        <span class="icon-menu" id="menu"></span>
-        <nav id="nav">
+        <nav id="nav" ng-show="show">
             <ul>
                 <li>
                     <a href="/#/products">
@@ -43,9 +43,9 @@
         </nav>
         <aside class="item">
             <a href="/#/panama">About Panama</a>
-             <img  src ="Imagenes/bandera_panama.png" class="top__aboutpanama__items bandera"/>
+             <img  src ="Imagenes/bandera_panama.png" class="bandera"/>
         </aside>
-        
+        <a class="nav-menu"  ng-click="toggle()"><span class="icon-menu" id="menu"></span></a>
     </section>
    <header>
        <hgroup> 
@@ -68,8 +68,6 @@
     </aside>
     <div ng-view></div>
     <footer></footer>
-    <script src="menu.js">
-    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
     <script src="js/lib/angular-route.min.js"></script>
     <script src="js/app.js"></script>
