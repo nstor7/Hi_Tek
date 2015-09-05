@@ -5,7 +5,7 @@ var parcero = require('body-parser');
 app.use(parcero.urlencoded({extended:true}));
 var servidor;
 
-servidor = app.listen(80, function(){
+servidor = app.listen(80, 52.88.120.36, function(){
     console.log('Servidor Arrancado');
 });
 
