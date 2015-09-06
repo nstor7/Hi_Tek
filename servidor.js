@@ -3,10 +3,11 @@ var express = require('express');
 var app = express();
 var parcero = require('body-parser');
 app.use(parcero.urlencoded({extended:true}));
-var servidor;
+var http = require('http');
 
-servidor = app.listen(80, '172.31.38.114', function(){
-    console.log('Servidor Arrancado');
-});
+app.listen = function(){
+    var servidor = http.createServer(this);
+    return server.listen.apply(server, arguments);
+}
 
 app.use(express.static('pagina'));
