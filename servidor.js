@@ -3,13 +3,10 @@ var express = require('express');
 var app = express();
 var parcero = require('body-parser');
 app.use(parcero.urlencoded({extended:true}));
-var http = require('http');
+var servidor;
 
-http.createServer(app).listen(80);
-app.listen = function(){
-    var servidor = http.createServer(this);
-    return server.listen.apply(server, arguments)
-    console.log('exitoso puerto http')
-};
+servidor = app.listen(80, function(){
+    console.log('Servidor Arrancado');
+});
 
 app.use(express.static('pagina'));
